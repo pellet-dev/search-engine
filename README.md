@@ -18,3 +18,5 @@ I risultati sono formattati come segue:
  4. Anno
  5. Genere
  6. Score
+
+La collezione dei dati non è presente nella repository.
