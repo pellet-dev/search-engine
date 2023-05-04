@@ -1,0 +1,275 @@
+1#
+UIN: Find "titanic"
+query: titanic
+
+RESULTS:
+Titanic 
+James Cameron 
+Leonardo DiCaprio , Kate Winslet , Billy Zane , Kathy Bates 
+1997 
+Drama 
+Ranking --> 13.67
+-------------------------
+Titanics Final Mystery 
+Nigel Levy 
+Bernard Hill , Tim Maltin , Don Murphy , Scott Woodruff 
+2012 tv Movie 
+Documentary 
+Ranking --> 11.68
+-------------------------
+Liverpools Titanic Girl 
+Gareth Knowles 
+Gillian Kearney 
+2012 tv Movie 
+Documentary 
+Ranking --> 11.60
+-------------------------
+Titanic Kadhalum Kavunthu Pogum 
+Janaki Raman 
+Kalaiyarasan , Anandhi , Ashna Zaveri 
+2021 
+Comedy 
+Ranking --> 11.33
+
+
+2#
+UIN:find movies directed by tarantino with Christoph Waltz in the cast
+query: director:"quentin tarantino" cast:"Christoph Waltz"
+
+RESULTS:
+Django Unchained 
+Quentin Tarantino 
+Jamie Foxx , Christoph Waltz , Leonardo DiCaprio , Kerry Washington , Samuel l. Jackson , Walton Goggins , Dennis Christopher , James Remar , David Steen , Dana Gourrier , Nichole Galicia , Laura Cayouette , Ato Essandoh , Sammi Rotibi , Escalante Lundy , Don Johnson 
+2012 
+Action & Adventure , Dramas 
+Ranking --> 35.32
+-------------------------
+Inglourious Basterds 
+Quentin Tarantino 
+Brad Pitt , Mélanie Laurent , Christoph Waltz , Eli Roth , Michael Fassbender , Diane Kruger , Daniel Brühl , Til Schweiger , Gedeon Burkhard , Jacky Ido , B.J . Novak , Sylvester Groth , Martin Wuttke 
+2009 
+Action & Adventure 
+Ranking --> 27.08
+-------------------------
+
+
+
+3#
+UIN: find all movies directed by alfred hitchcock from 1930 to 1950
+query: director:"alfred hitchcock" year:[1930 TO 1950]
+
+RESULTS:
+The Paradine Case 
+Alfred Hitchcock 
+Gregory Peck , Ann Todd , Charles Laughton , Charles Coburn 
+1947 
+Crime 
+Ranking --> 25.71
+-------------------------
+Lifeboat 
+Alfred Hitchcock 
+Tallulah Bankhead , John Hodiak , Walter Slezak , William Bendix 
+1944 
+Drama 
+Ranking --> 25.67
+-------------------------
+The Skin Game 
+Alfred Hitchcock 
+Edmund Gwenn , Jill Esmond , C.V . France , Helen Haye 
+1931 
+Drama 
+Ranking --> 25.33
+-------------------------
+
+#4
+UIN: what's the tv series with "teacher" and "cancer" near each other in the plot?
+query: descr:"teacher cancer"~5
+
+RESULTS:
+Breaking Bad 
+
+Bryan Cranston , Aaron Paul , Anna Gunn , Dean Norris , Betsy Brandt , R.J. Mitte , Bob Odenkirk , Steven Michael Quezada , Jonathan Banks , Giancarlo Esposito 
+2013 
+Crime tv Shows , tv Dramas , tv Thrillers 
+Ranking --> 12.26
+-------------------------
+
+
+
+#5 
+UIN: what are the movies with both cillian murphy and tom hardy in the cast?
+query: cast:("Cillian Murphy" "Tom Hardy")
+
+RESULTS:
+Inception 
+Christopher Nolan 
+Leonardo DiCaprio , Joseph Gordon-Levitt , Elliot Page , Tom Hardy , Ken Watanabe , Dileep Rao , Cillian Murphy , Tom Berenger , Marion Cotillard , Pete Postlethwaite , Michael Caine , Lukas Haas 
+2010 
+Action & Adventure , Sci-Fi & Fantasy , Thrillers 
+Ranking --> 23.29
+-------------------------
+Peaky Blinders 
+
+Cillian Murphy , Sam Neill , Helen McCrory , Paul Anderson , Iddo Goldberg , Annabelle Wallis , Sophie Rundle , Tom Hardy , Joe Cole , Ned Dennehy , Andy Nyman , Charlie Creed-Miles , Charlotte Riley , David Dawson , Jeffrey Postlethwaite , Matthew Postlethwaite , Ian Peck , Tony Pitts , Aidan Gillen , Adrien Brody , Charlie Murphy , Aimee-Ffion Edwards 
+2019 
+British tv Shows , Crime tv Shows , International tv Shows 
+Ranking --> 16.72
+-------------------------
+
+
+
+#6
+UIN: find movies with robert de niro
+query: robert de niro
+
+RESULTS:
+
+The Irishman in Conversation 
+
+Martin Scorsese , Robert de Niro , al Pacino , Joe Pesci 
+2019 
+Documentaries 
+Ranking --> 23.18
+
+-------------------------
+
+Untitled de NiroRamirezJakubowicz Project 
+Jonathan Jakubowicz 
+Robert de Niro , Edgar Ramírez 
+
+Action 
+Ranking --> 21.11
+
+-------------------------
+
+True Confessions 
+Ulu Grosbard 
+Robert de Niro , Robert Duvall , Charles Durning , Kenneth McMillan 
+1981 
+Crime 
+Ranking --> 19.03
+
+
+#7
+UIN: find movies directed by tarantino or spielberg, with spielberg movies twice as important and tarantino half as important
+
+query: director:("Quentin Tarantino"^0.5 OR "Steven Spielberg"^2)
+
+RESULTS:
+et ExtraTerrestrial 
+Steven Spielberg 
+Henry Thomas , Drew Barrymore , Peter Coyote , Dee Wallace 
+1982 
+Family 
+Ranking --> 33.54
+-------------------------
+The Terminal 
+Steven Spielberg 
+Tom Hanks , Catherine Zeta-Jones , Chi McBride , Stanley Tucci 
+2004 
+Comedy 
+Ranking --> 33.54
+-------------------------
+The Color Purple 
+Steven Spielberg 
+Danny Glover , Whoopi Goldberg , Oprah Winfrey , Margaret Avery 
+1985 
+Drama 
+Ranking --> 33.54
+-------------------------
+The Lost World Jurassic Park 
+Steven Spielberg 
+Jeff Goldblum , Julianne Moore , Pete Postlethwaite , Vince Vaughn 
+1997 
+Action 
+Ranking --> 33.54
+------------------------
+
+8#
+
+UIN: movies with "aldo giovanni e giacomo" released from 1995 to 2005
+query: aldo giovanni giacomo year:[1995 TO 2005]
+
+RESULTS:
+
+Chiedimi se sono felice 
+Aldo Baglio 
+Giacomo Poretti , Giovanni Storti , Massimo Venier , Aldo Baglio , Giovanni Storti , Giacomo Poretti , Marina Massironi 
+2000 
+Comedy 
+Ranking --> 39.35
+-------------------------
+tu la conosci Claudia 
+Massimo Venier 
+Aldo Baglio , Giovanni Storti , Giacomo Poretti , Paola Cortellesi 
+2004 
+Comedy 
+Ranking --> 35.43
+-------------------------
+Tre uomini e una gamba 
+Aldo Baglio 
+Giacomo Poretti , Giovanni Storti , Massimo Venier , Aldo Baglio , Giovanni Storti , Giacomo Poretti , Marina Massironi 
+1997 
+Comedy 
+Ranking --> 33.41
+-------------------------
+
+
+
+9# 
+UIN: what's the prequel of the tv series "breaking bad"?
+query: prequel breaking bad
+
+RESULTS:
+Better Call Saul 
+
+Bob Odenkirk , Jonathan Banks , Michael McKean , Rhea Seehorn , Patrick Fabian , Michael Mando , Giancarlo Esposito 
+2018 
+Crime tv Shows , tv Comedies , tv Dramas 
+Ranking --> 21.07
+-------------------------
+
+
+
+10#
+UIN: find the first 5 movies of the Rocky saga not including documentaries
+query: Rocky* cast:"Sylvester Stallone" NOT genre:"Documentary"
+
+RESULTS:
+
+Rocky v 
+John g. Avildsen 
+Sylvester Stallone , Talia Shire , Burt Young , Richard Gant , Tommy Morrison , Sage Stallone , Burgess Meredith , Tony Burton 
+1990 
+Dramas , Sports Movies 
+Ranking --> 28.43
+-------------------------
+Rocky III 
+Sylvester Stallone 
+Sylvester Stallone , Talia Shire , Burt Young , Carl Weathers , Burgess Meredith , Tony Burton , Mr. t , Hulk Hogan , Ian Fried 
+1982 
+Dramas , Sports Movies 
+Ranking --> 28.39
+-------------------------
+Rocky iv 
+Sylvester Stallone 
+Sylvester Stallone , Talia Shire , Burt Young , Carl Weathers , Dolph Lundgren , Brigitte Nielsen , Tony Burton , Michael Pataki 
+1985 
+Dramas , Sports Movies 
+Ranking --> 27.81
+-------------------------
+Rocky 
+John g. Avildsen 
+Sylvester Stallone , Talia Shire , Burt Young , Carl Weathers , Burgess Meredith , Thayer David , Joe Spinell , Jimmy Gambina , Bill Baldwin 
+1976 
+Action & Adventure , Classic Movies , Dramas 
+Ranking --> 23.73
+-------------------------
+Rocky ii 
+Sylvester Stallone 
+Sylvester Stallone , Talia Shire , Burt Young , Carl Weathers , Burgess Meredith , Tony Burton , Joe Spinell , Leonard Gaines , John Pleshette , Sylvia Meals 
+1979 
+Dramas , Sports Movies 
+Ranking --> 23.52
+-------------------------
+Media -->  26.38
